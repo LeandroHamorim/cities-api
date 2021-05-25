@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.github.LeandroHamorim.citiesapi.countries.Country;
-import com.github.LeandroHamorim.citiesapi.repository.CountryRepository;
+import com.github.LeandroHamorim.citiesapi.countries.CountryRepository;
 
 @RestController
 @RequestMapping("/countries")
